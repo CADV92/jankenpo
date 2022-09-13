@@ -97,3 +97,18 @@ button:hover {
     height: 50px;
     width: 50px;
 }
+
+@media (max-width: 640px) {
+    body {
+        width: 100%;
+    }
+    .main_container {
+        width: 98%;
+    }
+    .main_container__card {
+        padding: 15px 0px;
+    }
+    .main_container__card img {
+        width: 50px;
+    }
+}
